@@ -493,7 +493,7 @@ HH:MM
 
 این ورودی برای تنظیم رنگ پس‌زمینه، رنگ قالب یا رنگ موردعلاقه کاربر کاربرد دارد.
 
-### 4.12. محدوده عددی (range)
+### محدوده عددی (range)
 
 برای انتخاب یک مقدار در یک بازه، معمولاً با اسلایدر، استفاده می‌شود.
 
@@ -513,25 +513,7 @@ HH:MM
 
 مقدار اولیه در این مثال ۵۰ است و کاربر می‌تواند مقدار را در بازه ۰ تا ۱۰۰ تغییر دهد.
 
-نمایش مقدار انتخاب‌شده با JavaScript:
-
-```html
-<label for="volume">شدت صدا:</label>
-<input type="range" id="volume" min="0" max="100" value="50">
-
-<output id="volume-value">50</output>
-
-<script>
-    const volume = document.querySelector("#volume");
-    const output = document.querySelector("#volume-value");
-
-    volume.addEventListener("input", () => {
-        output.value = volume.value;
-    });
-</script>
-```
-
-### 4.13. ورودی تلفن (tel)
+### ورودی تلفن (tel)
 
 برای دریافت شماره تلفن استفاده می‌شود.
 

@@ -1,34 +1,6 @@
 # ترکیب سلکتورها و سلکتورهای پیشرفته در CSS
 ## CSS Selector Combinators & Advanced Selectors
 
-## فهرست مطالب
-
-- [1. مقدمه](#1-مقدمه)
-- [2. انواع سلکتورهای پایه](#2-انواع-سلکتورهای-پایه)
-- [3. ترکیب سلکتورها (Combinators)](#3-ترکیب-سلکتورها-combinators)
-  - [3.1 Descendant Selector](#31-descendant-selector)
-  - [3.2 Child Selector](#32-child-selector)
-  - [3.3 Adjacent Sibling Selector](#33-adjacent-sibling-selector)
-  - [3.4 General Sibling Selector](#34-general-sibling-selector)
-  - [3.5 ترکیب چند سلکتور](#35-ترکیب-چند-سلکتور)
-- [4. Attribute Selectors](#4-attribute-selectors)
-- [5. Child Pseudo-classes](#5-child-pseudo-classes)
-- [6. Structural Pseudo-classes](#6-structural-pseudo-classes)
-- [7. State Pseudo-classes](#7-state-pseudo-classes)
-- [8. User Action Pseudo-classes](#8-user-action-pseudo-classes)
-- [9. Form Pseudo-classes](#9-form-pseudo-classes)
-- [10. Logical Pseudo-classes](#10-logical-pseudo-classes)
-- [11. Pseudo-elements](#11-pseudo-elements)
-- [12. ترکیب سلکتورهای پیشرفته](#12-ترکیب-سلکتورهای-پیشرفته)
-- [13. Specificity یا اولویت سلکتورها](#13-specificity-یا-اولویت-سلکتورها)
-- [14. مثال کاربردی جامع](#14-مثال-کاربردی-جامع)
-- [15. نکات مهم و اشتباهات رایج](#15-نکات-مهم-و-اشتباهات-رایج)
-- [16. جمع‌بندی](#16-جمع‌بندی)
-
----
-
-# 1. مقدمه
-
 در CSS برای انتخاب عناصر HTML و اعمال استایل روی آن‌ها از Selector استفاده می‌کنیم.
 
 سلکتورها به ما اجازه می‌دهند مشخص کنیم کدام عناصر باید استایل مشخصی دریافت کنند.

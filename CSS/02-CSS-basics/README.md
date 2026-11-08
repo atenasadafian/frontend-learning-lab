@@ -1,42 +1,7 @@
 # ویژگی‌های پایه‌ای CSS: رنگ، پس‌زمینه و فونت‌ها
 <a name="top"></a>
 
-## فهرست مطالب
-
-- [1. مقدمه](#1-مقدمه)
-- [2. ویژگی رنگ (Color)](#2-ویژگی-رنگ-color)
-  - [2.1. روش‌های تعریف رنگ](#21-روشهای-تعریف-رنگ)
-  - [2.2. ویژگی Opacity](#22-ویژگی-opacity)
-  - [2.3. ویژگی Color و وراثت](#23-ویژگی-color-و-وراثت)
-- [3. ویژگی پس‌زمینه (Background)](#3-ویژگی-پسزمینه-background)
-  - [3.1. Background Color](#31-background-color)
-  - [3.2. Background Image](#32-background-image)
-  - [3.3. Background Repeat](#33-background-repeat)
-  - [3.4. Background Position](#34-background-position)
-  - [3.5. Background Size](#35-background-size)
-  - [3.6. Background Attachment](#36-background-attachment)
-  - [3.7. Background Origin و Clip](#37-background-origin-و-clip)
-  - [3.8. ویژگی ترکیبی Background](#38-ویژگی-ترکیبی-background)
-  - [3.9. چند پس‌زمینه‌ای (Multiple Backgrounds)](#39-چند-پسزمینهای-multiple-backgrounds)
-- [4. فونت‌ها (Fonts)](#4-فونتها-fonts)
-  - [4.1. Font Family](#41-font-family)
-  - [4.2. Font Size](#42-font-size)
-  - [4.3. Font Weight](#43-font-weight)
-  - [4.4. Font Style](#44-font-style)
-  - [4.5. Font Variant](#45-font-variant)
-  - [4.6. Font Stretch](#46-font-stretch)
-  - [4.7. Line Height](#47-line-height)
-  - [4.8. Letter Spacing و Word Spacing](#48-letter-spacing-و-word-spacing)
-  - [4.9. Font Shorthand](#49-font-shorthand)
-  - [4.10. بارگذاری فونت سفارشی](#410-بارگذاری-فونت-سفارشی)
-- [5. واحدهای اندازه‌گیری](#5-واحدهای-اندازهگیری)
-- [6. مثال عملی](#6-مثال-عملی)
-- [7. نکات مهم و بهترین روش‌ها](#7-نکات-مهم-و-بهترین-روشها)
-- [8. جمع‌بندی](#8-جمعبندی)
-
 ---
-
-# 1. مقدمه
 
 CSS مخفف Cascading Style Sheets است و برای طراحی ظاهر صفحات وب استفاده می‌شود.
 

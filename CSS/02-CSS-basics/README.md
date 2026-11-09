@@ -417,7 +417,7 @@ body {
 
 ---
 
-##  Background Repeat
+## Background Repeat
 
 ویژگی `background-repeat` مشخص می‌کند تصویر پس‌زمینه چگونه تکرار شود.
 
@@ -580,7 +580,7 @@ background-position: right;
 
 ---
 
-## 3.6. Background Attachment
+## Background Attachment
 
 ویژگی `background-attachment` مشخص می‌کند تصویر پس‌زمینه هنگام پیمایش صفحه چگونه رفتار کند.
 
@@ -618,7 +618,7 @@ body {
 
 ---
 
-## 3.7. Background Origin و Clip
+## Background Origin و Clip
 
 ### Background Origin
 
@@ -673,7 +673,7 @@ body {
 
 ---
 
-## 3.8. ویژگی ترکیبی Background
+## ویژگی ترکیبی Background
 
 به‌جای نوشتن تمام ویژگی‌های پس‌زمینه به‌صورت جداگانه، می‌توان از ویژگی ترکیبی `background` استفاده کرد.
 
@@ -717,7 +717,7 @@ body {
 
 ---
 
-## 3.9. چند پس‌زمینه‌ای (Multiple Backgrounds)
+## چند پس‌زمینه‌ای (Multiple Backgrounds)
 
 CSS امکان استفاده از چند تصویر پس‌زمینه برای یک عنصر را فراهم می‌کند.
 

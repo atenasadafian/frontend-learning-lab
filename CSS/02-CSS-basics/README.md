@@ -318,7 +318,7 @@ p {
 
 ---
 
-## 2.3. ویژگی Color و وراثت
+## ویژگی Color و وراثت
 
 ویژگی `color` از ویژگی‌های قابل وراثت (Inherited) در CSS است.
 
@@ -341,7 +341,7 @@ p {
 
 ---
 
-# 3. ویژگی پس‌زمینه (Background)
+# ویژگی پس‌زمینه (Background)
 
 ویژگی‌های Background برای تعیین ظاهر پس‌زمینه عناصر HTML استفاده می‌شوند.
 
@@ -354,7 +354,7 @@ p {
 - اندازه تصویر را تنظیم کرد.
 - تصویر را ثابت یا متحرک نگه داشت.
 
-## 3.1. Background Color
+## Background Color
 
 ویژگی `background-color` برای تعیین رنگ پس‌زمینه عنصر استفاده می‌شود.
 
@@ -384,7 +384,7 @@ p {
 
 ---
 
-## 3.2. Background Image
+## Background Image
 
 ویژگی `background-image` برای قرار دادن تصویر در پس‌زمینه عنصر استفاده می‌شود.
 
@@ -417,7 +417,7 @@ body {
 
 ---
 
-## 3.3. Background Repeat
+##  Background Repeat
 
 ویژگی `background-repeat` مشخص می‌کند تصویر پس‌زمینه چگونه تکرار شود.
 
@@ -468,7 +468,7 @@ body {
 
 ---
 
-## 3.4. Background Position
+## Background Position
 
 ویژگی `background-position` موقعیت قرارگیری تصویر پس‌زمینه را مشخص می‌کند.
 
@@ -517,7 +517,7 @@ background-position: right;
 
 ---
 
-## 3.5. Background Size
+## Background Size
 
 ویژگی `background-size` اندازه تصویر پس‌زمینه را مشخص می‌کند.
 

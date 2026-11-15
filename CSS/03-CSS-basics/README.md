@@ -52,7 +52,7 @@
 
 ---
 
-# Content چیست؟
+# Content
 
 `Content` هسته اصلی یک عنصر است.
 

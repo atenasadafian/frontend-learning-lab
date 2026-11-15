@@ -629,7 +629,7 @@ max(30px, 20px) = 30px
 1. `content-box`
 2. `border-box`
 
-## 7.1. Content-box
+## Content-box
 
 این مقدار، حالت پیش‌فرض CSS است.
 
@@ -725,7 +725,7 @@ Margin در محاسبه عرض و ارتفاع خود Box وارد نمی‌ش�
 350 + 10 + 10 = 370px
 ```
 
-## 7.2. Border-box
+## Border-box
 
 در این حالت، عرض و ارتفاع مشخص‌شده شامل Content، Padding و Border هستند.
 
@@ -775,7 +775,7 @@ Content Height = 150px
 
 ---
 
-# 8. چرا استفاده از Border-box مهم است؟
+# چرا استفاده از Border-box مهم است؟
 
 در پروژه‌های واقعی معمولاً ترجیح داده می‌شود از `border-box` استفاده کنیم.
 
@@ -805,7 +805,7 @@ Content Height = 150px
 
 ---
 
-# 9. مثال جامع از Box Model
+# مثال جامع از Box Model
 
 در این مثال تمام مفاهیم را کنار یکدیگر بررسی می‌کنیم.
 
@@ -883,7 +883,7 @@ Content Height = 150px
 
 ---
 
-# 10. تفاوت Box Model در Block و Inline
+# تفاوت Box Model در Block و Inline
 
 رفتار Box Model در عناصر مختلف HTML یکسان نیست.
 
@@ -950,77 +950,6 @@ span {
 
 ---
 
-# 11. اشتباهات رایج در Box Model
-
-### اشتباه اول: تصور اینکه Width اندازه کل عنصر است
-
-```css
-.box {
-    width: 300px;
-    padding: 30px;
-    border: 5px solid black;
-}
-```
-
-در حالت `content-box` عرض واقعی 370 پیکسل است، نه 300 پیکسل.
-
-### اشتباه دوم: اشتباه گرفتن Padding و Margin
-
-```css
-.box {
-    padding: 20px;
-}
-```
-
-فاصله داخلی ایجاد می‌کند.
-
-```css
-.box {
-    margin: 20px;
-}
-```
-
-فاصله خارجی ایجاد می‌کند.
-
-### اشتباه سوم: فراموش کردن Margin پیش‌فرض مرورگر
-
-بعضی عناصر HTML مانند `body`، `h1` و `p` به‌صورت پیش‌فرض Margin دارند.
-
-برای مثال:
-
-```css
-body {
-    margin: 0;
-}
-```
-
-این دستور Margin پیش‌فرض Body را حذف می‌کند.
-
-### اشتباه چهارم: استفاده نادرست از Margin برای فاصله داخلی
-
-اگر بخواهیم متن داخل کارت از لبه آن فاصله بگیرد، بهتر است از Padding استفاده کنیم.
-
-### اشتباه پنجم: نادیده گرفتن Margin Collapse
-
-دو Margin عمودی مجاور همیشه با هم جمع نمی‌شوند.
-
-### اشتباه ششم: فراموش کردن Border در محاسبه اندازه
-
-Border نیز مانند Padding در اندازه نهایی عنصر با `content-box` تأثیر دارد.
-
----
-
-# 12. جمع‌بندی نهایی
-
-برای درک بهتر Box Model، این چهار سؤال را همیشه به خاطر داشته باش:
-
-| سؤال | پاسخ |
-|---|---|
-| محتوای عنصر کجاست؟ | Content |
-| فاصله محتوا تا کادر چقدر است؟ | Padding |
-| کادر دور عنصر چیست؟ | Border |
-| فاصله عنصر تا عناصر اطراف چیست؟ | Margin |
-
 ### یک قانون ساده برای همیشه
 
 ```text
@@ -1075,89 +1004,6 @@ Border Right +
 Margin Right
 ```
 
----
-
-# 13. تمرین‌های عملی
-
-برای اینکه مطمئن شوی Box Model را عمیقاً درک کرده‌ای، تمرین‌های زیر را انجام بده.
-
-## تمرین اول: محاسبه عرض
-
-عنصری با مشخصات زیر داریم:
-
-```css
-.box {
-    width: 200px;
-    padding: 20px;
-    border: 5px solid black;
-    margin: 10px;
-}
-```
-
-سؤالات:
-
-1. عرض Content چقدر است؟
-2. عرض کل Box چقدر است؟
-3. فضای افقی اشغال‌شده در چیدمان چقدر است؟
-
-## تمرین دوم: تغییر Box-sizing
-
-کد زیر را بررسی کن:
-
-```css
-.box {
-    width: 300px;
-    height: 200px;
-
-    padding: 30px;
-    border: 10px solid black;
-
-    box-sizing: border-box;
-}
-```
-
-سؤالات:
-
-1. عرض نهایی عنصر چقدر است؟
-2. عرض Content چقدر است؟
-3. ارتفاع Content چقدر است؟
-4. اگر Padding را به 40 پیکسل تغییر دهیم چه اتفاقی می‌افتد؟
-
-## تمرین سوم: تفاوت Margin و Padding
-
-دو کارت بساز.
-
-در کارت اول فقط Padding را افزایش بده.
-
-در کارت دوم فقط Margin را افزایش بده.
-
-سپس تفاوت ظاهری و رفتاری آن‌ها را بررسی کن.
-
-## تمرین چهارم: Margin Collapse
-
-دو عنصر Block بساز.
-
-برای عنصر اول `margin-bottom: 40px` و برای عنصر دوم `margin-top: 20px` قرار بده.
-
-سپس فاصله واقعی بین دو عنصر را بررسی کن.
-
-## تمرین پنجم: ساخت کارت واقعی
-
-یک کارت طراحی کن که شامل موارد زیر باشد:
-
-- عرض 350 پیکسل
-- Padding برابر 24 پیکسل
-- Border یک پیکسل
-- Border Radius برابر 12 پیکسل
-- Margin افقی Auto
-- پس‌زمینه دلخواه
-
-سپس مقدار `box-sizing` را بین `content-box` و `border-box` تغییر بده و تفاوت را بررسی کن.
-
----
-
-# 14. نتیجه‌گیری
-
 CSS Box Model یکی از پایه‌ای‌ترین و در عین حال مهم‌ترین مفاهیم طراحی رابط کاربری است.
 
 اگر این مفهوم را به‌خوبی درک کنی:
@@ -1177,12 +1023,3 @@ Padding فضای داخل عنصر را کنترل می‌کند، اما Margin
 
 وقتی این تفاوت را به‌درستی درک کنی و مفهوم `box-sizing` را یاد بگیری، بخش مهمی از منطق اندازه‌گیری و فاصله‌گذاری در CSS را فهمیده‌ای.
 
----
-
-**منابع پیشنهادی برای مطالعه بیشتر:**
-
-- [MDN - Introduction to the CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model)
-- [MDN - box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
-- [MDN - margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
-- [MDN - padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
-- [MDN - border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)

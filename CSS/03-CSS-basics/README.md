@@ -120,7 +120,7 @@ max-height: 300px;
 
 ---
 
-# 3. Padding چیست؟
+# Padding چیست؟
 
 `Padding` فاصله داخلی یک عنصر است.
 

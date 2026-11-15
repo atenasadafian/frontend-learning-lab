@@ -120,7 +120,7 @@ max-height: 300px;
 
 ---
 
-# Padding چیست؟
+# Padding 
 
 `Padding` فاصله داخلی یک عنصر است.
 
@@ -257,7 +257,7 @@ padding: TOP RIGHT BOTTOM LEFT;
 
 ---
 
-# 4. Border چیست؟
+# Border
 
 `Border` کادری است که دور Padding و Content قرار می‌گیرد.
 
@@ -383,7 +383,7 @@ border-style: none;
 
 ---
 
-# 5. Margin چیست؟
+# Margin 
 
 `Margin` فاصله خارجی یک عنصر است.
 
@@ -618,7 +618,7 @@ max(30px, 20px) = 30px
 
 ---
 
-# 7. محاسبه اندازه واقعی عنصر در CSS
+# محاسبه اندازه واقعی عنصر در CSS
 
 یکی از مهم‌ترین بخش‌های Box Model، محاسبه اندازه نهایی یک عنصر است.
 

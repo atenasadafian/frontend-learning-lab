@@ -233,7 +233,7 @@ span {
 
 ---
 
-## ۴. چیدمان با float
+## چیدمان با float
 
 ### مفهوم Float
 
@@ -341,7 +341,7 @@ span {
 
 ---
 
-## ۵. ویژگی clear
+## ویژگی clear
 
 ### مفهوم Clear
 
@@ -428,7 +428,7 @@ span {
 
 ---
 
-## ۶. تفاوت Block و Inline و Float
+## تفاوت Block و Inline و Float
 
 | ویژگی | Block | Inline | Float |
 |---|---|---|---|

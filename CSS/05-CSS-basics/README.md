@@ -46,7 +46,7 @@ div {
 
 ---
 
-## ۲. چیدمان با display: block
+## چیدمان با display: block
 
 ### مفهوم Block
 
@@ -137,7 +137,7 @@ span {
 
 ---
 
-## ۳. چیدمان با display: inline
+## چیدمان با display: inline
 
 ### مفهوم Inline
 
